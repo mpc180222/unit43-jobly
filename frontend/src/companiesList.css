@@ -1,0 +1,36 @@
+
+
+.search-form{
+text-align: center;
+
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  ::placeholder{
+    font-style: italic;
+    font-size:large
+  }
+
+  .button-class {
+    background-color: #4CAF50; /* Green */
+    border: thick;
+    color: white;
+    padding: 5px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid black;
+  }
+
+  .button-class:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
